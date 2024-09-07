@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+    --primary-color: #FFF490;
+    --secondary-color: #00FFFF;
+    --background-color: #121212;
+    --text-color: #FCFDF2;
+    --border-color: #333333;
+    /* --hover-color: #4682B4; */
+    /* --accent-color: #32CD32; */
+    --font-heading: 'Bebas Neue', sans-serif;
+    --font-text: 'Cabin', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-text);
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+#home{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    
+}
+#home div{
+    width: 50%;
+}
+#home img{
+    width: 100%;
+    transition: opacity 0.3s ease, transform 0.1s ease;
+}
+.qr {
+    height: 300px;
+}
+#home h3{
+    font-size: 32px;
+    text-align: center;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 15px 0;
+}
+
+
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/hexBG.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: filter 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+
+
+@media (max-width: 768px) {
+    #home h3{
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin: 5px 0;
+    }
+    #home div{
+        width: 100%;
+    }
+  }
