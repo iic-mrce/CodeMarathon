@@ -21,22 +21,22 @@
     "round_details": [
         {
             "round_number": 1,
-            "round_name": "Algorithmic Challenges",
-            "description": "Solve complex algorithmic problems within a time limit. Topics may include dynamic programming, graph theory, and more.",
+            "round_name": "Code Sprint",
+            "description": "Start your engines! This 2-hour race through easy questions will test your speed and accuracy.",
             "difficulty_level": "Easy",
             "time_limit": "2 hours"
         },
         {
             "round_number": 2,
-            "round_name": "Bug Hunting",
-            "description": "Participants are tasked with identifying and fixing bugs in provided code snippets.",
+            "round_name": "The Logic Lab",
+            "description": "Step into the challenge zone with medium-level questions in this 1-hour round where logic and efficiency are key.",
             "difficulty_level": "Moderate",
             "time_limit": "1 hours"
         },
         {
             "round_number": 3,
-            "round_name": "Optimization Challenge",
-            "description": "Optimize a given solution to run within the required time and space limits.",
+            "round_name": "Brainstorm Blitz",
+            "description": "The final round! Tackle tough, mind-bending questions in a fast-paced 1-hour showdown to claim victory.",
             "difficulty_level": "Hard",
             "time_limit": "1 hour"
         }
@@ -52,22 +52,36 @@
         }
     },
     "participant_details": {
-        "total_participants": 0,
-        "participants": []
+        "total_participants": 3,
+        "participants": [
+            {
+              "name": "R PRAVEEN REDDY",
+              "htno": "22Q91A66H7",
+              "college": "Malla Reddy College of Engineering",
+              "year": "3rd Year",
+              "branch": "CSE (AI & ML)"
+            },
+            {
+              "name": "L. Sreenu",
+              "htno": "24N35A0533",
+              "college": "MRCET",
+              "year": "2nd Year",
+              "branch": "CSE"
+            },
+            {
+              "name": "Chittampalli Bhanuprakash",
+              "htno": "22N31A1243",
+              "college": "Mallareddy College of Engineering and Technology (MRCET)",
+              "year": "3rd Year",
+              "branch": "IT"
+            }
+          ]
+          
     },
     "certificate": {
-        "awarded_to_all": true,
         "description": "Every participant will be awarded a certificate of participation."
     },
     "registration": {
-        "link": "http://mrce.edu/codemarathon/register",
-        "deadline": "2024-09-05"
-    },
-    "additional_info": {
-        "contact_email": "codemarathon@mrce.edu",
-        "social_media_links": {
-            "instagram": "http://instagram.com/mrce_codemarathon",
-            "twitter": "http://twitter.com/mrce_codemarathon"
-        }
+        "link": "https://forms.gle/RnaHXSyMaTg2xghNA"
     }
 }

@@ -12,27 +12,42 @@
 }
 
 body {
-    background-color: var(--background-color);
+    background: rgb(41,41,41);
+    background: rgb(41,41,41);background: linear-gradient(0deg, rgba(41,41,41,1) 8%, rgb(28, 28, 28) 100%);
     color: var(--text-color);
     font-family: var(--font-text);
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    padding: 0 5%;
+}
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-heading);
     letter-spacing: 1px;
     font-weight: 100;
+    margin: 0;
 }
-h1, h2, h3 {
-    font-family: var(--font-heading);
+h1{
+    font-size: 64px;
+    color: var(--primary-color);
+    text-align: center;
+}
+h5, h4{
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+h4{
+    font-size: 32px;
 }
 
 #home{
-    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 5%;
-    
+    gap: 20px;
 }
 #home div{
-    width: 50%;
+    width: 45%;
 }
 #home img{
     width: 100%;
@@ -49,8 +64,59 @@ h1, h2, h3 {
     font-weight: 100;
     margin: 15px 0;
 }
+a > img{
+    transition: all 0.5s ease-in-out;
+}
+a > img:hover{
+    transform: scale(1.1);
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.button {
+  appearance: none;
+  background-color: var(--secondary-color);
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  color: #000000;
+  cursor: pointer;
+  font-family: var(--font-text);
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  opacity: 0.8;
+}
 
-
+.button:hover {
+  background-color: var(--secondary-color);
+  opacity: 1;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+#details{
+    padding: 50px;
+}
+.round{
+    display: flex;
+    align-items: baseline;
+    gap: 5%;
+    justify-content: space-evenly;
+    padding: 0 7.5%;
+}
+.round > div{
+    min-width: 30%;
+}
 #bg{
     position: fixed;
     top: 0;
@@ -76,5 +142,12 @@ h1, h2, h3 {
     }
     #home div{
         width: 100%;
+    }
+    #details{
+        padding: 30px 10px;
+    }
+    .round{
+        flex-direction: column;
+        padding: 25px 5%;
     }
   }
