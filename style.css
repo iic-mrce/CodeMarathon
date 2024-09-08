@@ -5,8 +5,7 @@
   --background-color: #121212;
   --text-color: #fcfdf2;
   --border-color: #333333;
-  /* --hover-color: #4682B4; */
-  /* --accent-color: #32CD32; */
+
   --font-heading: "Bebas Neue", sans-serif;
   --font-text: "Cabin", sans-serif;
 }
@@ -40,17 +39,21 @@ h1 {
   color: var(--primary-color);
   text-align: center;
 }
-h5,
-h4 {
-  font-size: 18px;
+h2 {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+h5 {
+  font-size: 24px;
   color: var(--secondary-color);
 }
 h4 {
   font-size: 32px;
+  color: var(--secondary-color);
 }
-h6{
-    margin: 0;
-  }
+h6 {
+  margin: 0;
+}
 #home {
   display: flex;
   align-items: center;
@@ -58,13 +61,14 @@ h6{
   flex-wrap: wrap;
   gap: 20px;
 }
-#home div {
+#home > div {
+  padding: 20px 0;
   width: 45%;
 }
 #home > div {
   flex-direction: column;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 #home img {
@@ -77,10 +81,9 @@ h6{
 #home h3 {
   font-size: 32px;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   letter-spacing: 3px;
   font-weight: 100;
-  /* margin: 15px 0; */
 }
 a > img {
   transition: all 0.5s ease-in-out;
@@ -93,7 +96,10 @@ a > img:hover {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-
+}
+.blur {
+  position: absolute;
+  filter: blur(10px);
 }
 .button {
   appearance: none;
@@ -141,19 +147,18 @@ a > img:hover {
   min-width: 30%;
 }
 
-
-#coordinators{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#coordinators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-#coordinators > div{
-    text-align: center;
-    width: 35%;
-    padding: 20px;
+#coordinators > div {
+  text-align: center;
+  width: 35%;
+  padding: 20px;
 }
-#coordinators h1{
-    width: 100%;
+#coordinators h1 {
+  width: 100%;
 }
 #bg {
   position: fixed;
@@ -170,67 +175,53 @@ a > img:hover {
   z-index: -1;
 }
 
-#participantsTable {
+.table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  background: rgba(
-    255,
-    255,
-    255,
-    0.1
-  ); /* Semi-transparent white for dark mode */
-  backdrop-filter: blur(10px); /* Blurred background */
-  border-radius: 15px; /* Curved borders */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft shadow for the table */
-  color: #f1f1f1; /* Light text for dark mode */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: #f1f1f1;
 }
 
-/* Style for table headers */
-#participantsTable thead {
-  background: rgba(255, 255, 255, 0.2); /* Slightly lighter for header row */
+.table thead {
+  background: rgba(255, 255, 255, 0.2);
 }
 
-#participantsTable th {
+.table th {
   padding: 15px 10px;
   text-align: left;
   font-size: 16px;
-  color: #ffffff; /* White for header text */
+  color: #ffffff;
 }
 
-/* Style for table body */
-#participantsTable tbody tr {
-  transition: background 0.3s ease; /* Smooth transition on hover */
+.table tbody tr {
+  transition: background 0.3s ease;
 }
 
-#participantsTable tbody tr:nth-child(even) {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.05
-  ); /* Slightly darker background for alternate rows */
+.table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
 }
 
-#participantsTable td {
+.table td {
   padding: 12px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Light border for row separation */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 14px;
 }
 
-/* Hover effect */
-#participantsTable tbody tr:hover {
-  background: rgba(255, 255, 255, 0.2); /* Lighter background on hover */
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
-/* Table with rounded corners */
-#participantsTable tbody tr:last-child td {
-  border-bottom: none; /* Remove border for the last row */
+.table tbody tr:last-child td {
+  border-bottom: none;
 }
 
-/* Add some padding and centering to the table section */
-#participents {
+#participents,
+#round-details {
   padding: 20px 100px;
   display: flex;
   justify-content: center;
@@ -244,40 +235,39 @@ a:hover {
   color: rgb(169, 199, 255);
 }
 
-
 .dark-footer {
-    background-color: #7a7a7a36;
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
+  background-color: #7a7a7a36;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-logos img {
-    width: 100px;
-    margin: 0 15px;
+  width: 100px;
+  margin: 0 15px;
 }
 .footer-logos {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 .footer-text {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .footer-text h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+  font-size: 1.8em;
+  margin-bottom: 10px;
 }
 
 .footer-text p {
-    font-size: 1em;
-    line-height: 1.6;
+  font-size: 1em;
+  line-height: 1.6;
 }
 
 @media (max-width: 768px) {
@@ -297,38 +287,38 @@ a:hover {
     padding: 25px 5%;
   }
 
-  #coordinators > div{
+  #coordinators > div {
     text-align: center;
     width: 75%;
     padding: 20px;
-}
-  #participantsTable th, #participantsTable td {
-    font-size: 10px; /* Further reduce font size */
-    padding: 8px; /* Smaller padding */
   }
-
-  #participantsTable {
+  .table th,
+  .table td {
+    font-size: 10px;
+    padding: 8px;
     width: 100%;
-    margin: 5px; /* Allow for tighter spacing */
+  }
+  .table {
+    width: 100%;
+    margin: 5px;
   }
 
-  #participents {
-    padding: 50px 15px; /* Reduce section padding */
+  #participents,
+  #round-details {
+    padding: 50px 15px;
   }
 
-  /* Make the table scrollable horizontally on very small screens */
-  #participantsTable {
+  .table {
     display: block;
     overflow-x: auto;
-    white-space: nowrap; /* Prevent wrapping of table rows */
+    white-space: nowrap;
   }
 
   .footer-container {
     flex-direction: column;
-}
+  }
 
-.footer-logos {
+  .footer-logos {
     margin-bottom: 20px;
-}
-  
+  }
 }
