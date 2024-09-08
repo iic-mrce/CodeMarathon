@@ -42,7 +42,7 @@ $(document).ready(function() {
                 college: participant.college,
                 year: participant.year,
                 branch: participant.branch,
-                username: username || 'N/A',
+                username: username || '-',
                 easySolved: stats.easySolved * 10,
                 mediumSolved: stats.mediumSolved * 20,
                 hardSolved: stats.hardSolved * 40,
