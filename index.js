@@ -47,4 +47,8 @@ $(document).ready(function () {
       opacity: opacity,
     });
   });
+
+  $('footer').click(function () {
+    location.reload(); // This will refresh the page
+  });
 });
