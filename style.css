@@ -1,87 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
 :root {
-    --primary-color: #FFF490;
-    --secondary-color: #00FFFF;
-    --background-color: #121212;
-    --text-color: #FCFDF2;
-    --border-color: #333333;
-    /* --hover-color: #4682B4; */
-    /* --accent-color: #32CD32; */
-    --font-heading: 'Bebas Neue', sans-serif;
-    --font-text: 'Cabin', sans-serif;
+  --primary-color: #fff490;
+  --secondary-color: #00ffff;
+  --background-color: #121212;
+  --text-color: #fcfdf2;
+  --border-color: #333333;
+  /* --hover-color: #4682B4; */
+  /* --accent-color: #32CD32; */
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-text: "Cabin", sans-serif;
 }
 
 body {
-    background: rgb(41,41,41);
-    background: rgb(41,41,41);background: linear-gradient(0deg, rgba(41,41,41,1) 8%, rgb(28, 28, 28) 100%);
-    color: var(--text-color);
-    font-family: var(--font-text);
-    letter-spacing: 1.5px;
-    font-weight: 100;
-    padding: 0 5%;
+  background: rgb(41, 41, 41);
+  background: rgb(41, 41, 41);
+  background: linear-gradient(
+    0deg,
+    rgba(41, 41, 41, 1) 8%,
+    rgb(28, 28, 28) 100%
+  );
+  color: var(--text-color);
+  font-family: var(--font-text);
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  margin: 0;
 }
-h1, h2, h3, h4, h5 {
-    font-family: var(--font-heading);
-    letter-spacing: 1px;
-    font-weight: 100;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-heading);
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin: 0;
+}
+h1 {
+  font-size: 64px;
+  color: var(--primary-color);
+  text-align: center;
+}
+h5,
+h4 {
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+h4 {
+  font-size: 32px;
+}
+h6{
     margin: 0;
+  }
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-h1{
-    font-size: 64px;
-    color: var(--primary-color);
-    text-align: center;
+#home div {
+  width: 45%;
 }
-h5, h4{
-    font-size: 18px;
-    color: var(--secondary-color);
+#home > div {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-h4{
-    font-size: 32px;
-}
-
-#home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-#home div{
-    width: 45%;
-}
-#home img{
-    width: 100%;
-    transition: opacity 0.3s ease, transform 0.1s ease;
+#home img {
+  width: 100%;
+  transition: opacity 0.3s ease, transform 0.1s ease;
 }
 .qr {
-    height: 300px;
+  height: 300px;
 }
-#home h3{
-    font-size: 32px;
-    text-align: center;
-    color: var(--primary-color);
-    letter-spacing: 3px;
-    font-weight: 100;
-    margin: 15px 0;
+#home h3 {
+  font-size: 32px;
+  text-align: center;
+  color: var(--primary-color);
+  letter-spacing: 3px;
+  font-weight: 100;
+  /* margin: 15px 0; */
 }
-a > img{
-    transition: all 0.5s ease-in-out;
+a > img {
+  transition: all 0.5s ease-in-out;
 }
-a > img:hover{
-    transform: scale(1.1);
+a > img:hover {
+  transform: scale(1.1);
 }
-.buttons{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
 }
 .button {
   appearance: none;
   background-color: var(--secondary-color);
   border: 1px solid rgba(27, 31, 35, 0.15);
   border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
   color: #000000;
   cursor: pointer;
   font-family: var(--font-text);
@@ -93,61 +113,222 @@ a > img:hover{
   letter-spacing: 1px;
   list-style: none;
   padding: 6px 16px;
+  margin: 10px 0;
   position: relative;
-  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition: all 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   opacity: 0.8;
 }
 
 .button:hover {
   background-color: var(--secondary-color);
   opacity: 1;
+  color: #000000;
   text-decoration: none;
+  transition: all ease 0.3s;
   transition-duration: 0.1s;
 }
-#details{
-    padding: 50px;
+#details {
+  padding: 50px;
 }
-.round{
+.round {
+  display: flex;
+  align-items: baseline;
+  gap: 5%;
+  justify-content: space-evenly;
+  padding: 0 7.5%;
+}
+.round > div {
+  min-width: 30%;
+}
+
+
+#coordinators{
     display: flex;
-    align-items: baseline;
-    gap: 5%;
-    justify-content: space-evenly;
-    padding: 0 7.5%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.round > div{
-    min-width: 30%;
+#coordinators > div{
+    text-align: center;
+    width: 35%;
+    padding: 20px;
 }
-#bg{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('assets/hexBG.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: filter 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
+#coordinators h1{
+    width: 100%;
+}
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/hexBG.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: filter 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
 
+#participantsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Semi-transparent white for dark mode */
+  backdrop-filter: blur(10px); /* Blurred background */
+  border-radius: 15px; /* Curved borders */
+  overflow: hidden;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft shadow for the table */
+  color: #f1f1f1; /* Light text for dark mode */
 }
 
+/* Style for table headers */
+#participantsTable thead {
+  background: rgba(255, 255, 255, 0.2); /* Slightly lighter for header row */
+}
+
+#participantsTable th {
+  padding: 15px 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #ffffff; /* White for header text */
+}
+
+/* Style for table body */
+#participantsTable tbody tr {
+  transition: background 0.3s ease; /* Smooth transition on hover */
+}
+
+#participantsTable tbody tr:nth-child(even) {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.05
+  ); /* Slightly darker background for alternate rows */
+}
+
+#participantsTable td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Light border for row separation */
+  font-size: 14px;
+}
+
+/* Hover effect */
+#participantsTable tbody tr:hover {
+  background: rgba(255, 255, 255, 0.2); /* Lighter background on hover */
+}
+
+/* Table with rounded corners */
+#participantsTable tbody tr:last-child td {
+  border-bottom: none; /* Remove border for the last row */
+}
+
+/* Add some padding and centering to the table section */
+#participents {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+a {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(169, 199, 255);
+}
+
+
+.dark-footer {
+    background-color: #7a7a7a36;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logos img {
+    width: 100px;
+    margin: 0 15px;
+}
+.footer-logos {
+    margin: 25px 0;
+}
+.footer-text {
+    max-width: 600px;
+}
+
+.footer-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.footer-text p {
+    font-size: 1em;
+    line-height: 1.6;
+}
 
 @media (max-width: 768px) {
-    #home h3{
-        font-size: 24px;
-        letter-spacing: 2px;
-        margin: 5px 0;
-    }
-    #home div{
-        width: 100%;
-    }
-    #details{
-        padding: 30px 10px;
-    }
-    .round{
-        flex-direction: column;
-        padding: 25px 5%;
-    }
+  #home h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 5px 0;
   }
+  #home div {
+    width: 100%;
+  }
+  #details {
+    padding: 30px 10px;
+  }
+  .round {
+    flex-direction: column;
+    padding: 25px 5%;
+  }
+
+  #coordinators > div{
+    text-align: center;
+    width: 75%;
+    padding: 20px;
+}
+  #participantsTable th, #participantsTable td {
+    font-size: 10px; /* Further reduce font size */
+    padding: 8px; /* Smaller padding */
+  }
+
+  #participantsTable {
+    width: 100%;
+    margin: 5px; /* Allow for tighter spacing */
+  }
+
+  #participents {
+    padding: 50px 15px; /* Reduce section padding */
+  }
+
+  /* Make the table scrollable horizontally on very small screens */
+  #participantsTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap; /* Prevent wrapping of table rows */
+  }
+
+  .footer-container {
+    flex-direction: column;
+}
+
+.footer-logos {
+    margin-bottom: 20px;
+}
+  
+}

@@ -7,15 +7,17 @@
         "description": "Join the Code Marathon at MRCE Campus on September 12, 2024, and elevate your coding skills while competing for exciting prizes. Every participant will be recognized with a certificate, and top performers will earn prizes and recognition. With a registration fee of just ₹100, this event offers the perfect opportunity to enhance programming knowledge, network with peers and professionals, and boost your confidence through challenging coding tasks."
     },
     "coordinator_details": {
-        "coordinators": [
-            {
-                "name": "Harsh Verma",
-                "phone": "+91-9876543210"
-            },
-            {
-                "name": "Priya Sharma",
-                "phone": "+91-9876543211"
-            }
+        "faculty_coordinators": [
+            "Mr. M. Saktivel",
+            "Mrs. K. Sunanda Reddy",
+            "Mrs. K. Shanti Latha"
+        ],
+        "student_coordinators": [
+            "Mr. Manoj IV CSM C",
+            "Aishi Jain III CSM B",
+            "Amarakumar III CSM B",
+            "Harsh RB III CSM B",
+            "Ms. Akshitha II CSM C"
         ]
     },
     "round_details": [
@@ -52,31 +54,7 @@
         }
     },
     "participant_details": {
-        "total_participants": 3,
-        "participants": [
-            {
-              "name": "R PRAVEEN REDDY",
-              "htno": "22Q91A66H7",
-              "college": "Malla Reddy College of Engineering",
-              "year": "3rd Year",
-              "branch": "CSE (AI & ML)"
-            },
-            {
-              "name": "L. Sreenu",
-              "htno": "24N35A0533",
-              "college": "MRCET",
-              "year": "2nd Year",
-              "branch": "CSE"
-            },
-            {
-              "name": "Chittampalli Bhanuprakash",
-              "htno": "22N31A1243",
-              "college": "Mallareddy College of Engineering and Technology (MRCET)",
-              "year": "3rd Year",
-              "branch": "IT"
-            }
-          ]
-          
+        "total_participants": 3       
     },
     "certificate": {
         "description": "Every participant will be awarded a certificate of participation."
