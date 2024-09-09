@@ -141,17 +141,17 @@ a > img:hover {
   min-width: 30%;
 }
 
-#coordinators {
+#coordinators, #guidelines{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#coordinators > div {
+#coordinators > div, #guidelines > div {
   text-align: center;
   width: 35%;
   padding: 20px;
 }
-#coordinators h1 {
+#coordinators h1, #guidelines h1 {
   width: 100%;
 }
 #bg {
@@ -281,7 +281,7 @@ a:hover {
     padding: 25px 5%;
   }
 
-  #coordinators > div {
+  #coordinators > div, #guidelines > div {
     text-align: center;
     width: 75%;
     padding: 20px;
