@@ -11,13 +11,7 @@
 }
 
 body {
-  background: rgb(41, 41, 41);
-  background: rgb(41, 41, 41);
-  background: linear-gradient(
-    0deg,
-    rgba(41, 41, 41, 1) 8%,
-    rgb(28, 28, 28) 100%
-  );
+  background: rgb(0, 0, 0);
   color: var(--text-color);
   font-family: var(--font-text);
   letter-spacing: 1.5px;
@@ -162,9 +156,9 @@ a > img:hover {
 }
 #bg {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  top: 10vh;
+  left: -30%;
+  width: 150vw;
   height: 100vh;
   background-image: url("assets/hexBG.svg");
   background-size: cover;

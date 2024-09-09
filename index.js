@@ -18,8 +18,6 @@ $(document).ready(function () {
       `;
       $("#details").append(roundHTML);
     });
-
-    console.log(data.coordinator_details.faculty_coordinators);
     const facultyCoordinators = data.coordinator_details.faculty_coordinators;
 
     // Loop through each name and append it inside a <p> tag within .faculty div
@@ -33,7 +31,6 @@ $(document).ready(function () {
     studentCoordinators.forEach(function(name) {
         $('.student').append('<p>' + name + '</p>');
     });
-    console.log(data.coordinator_details.student_coordinators);
   });
 
   $(window).on("scroll", function () {
