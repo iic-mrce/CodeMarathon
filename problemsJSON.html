@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Problems JSON</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+    .container {
+      width: 80%;
+      max-width: 1200px;
+    }
+    input, textarea, button {
+      margin-bottom: 10px;
+      background-color: #2e2e2e;
+      color: #e0e0e0;
+      border: 1px solid #444;
+      border-radius: 4px;
+      padding: 8px;
+    }
+    input, textarea{
+      width: 95%;
+    }
+    textarea {
+      resize: vertical;
+    }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .problem-section {
+      border: 1px solid #444;
+      padding: 2%;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Create Problems JSON</h1>
+
+<div id="problems-container"></div>
+
+<button onclick="addProblem()">Add Problem</button>
+<button onclick="downloadJSON()">Download JSON</button>
+<button onclick="copyJSON()">Copy JSON</button>
+
+<script>
+  let problemCounter = 1;
+
+  function addProblem() {
+    const container = document.getElementById('problems-container');
+    
+    const problemSection = document.createElement('div');
+    problemSection.className = 'problem-section';
+    
+    problemSection.innerHTML = `
+      <label for="problem_no_${problemCounter}">Problem No:</label>
+      <input type="text" id="problem_no_${problemCounter}" value="${problemCounter}" required>
+
+      <label for="problem_${problemCounter}">Problem:</label>
+      <textarea id="problem_${problemCounter}" rows="4" required></textarea>
+
+      <label for="marks_${problemCounter}">Marks:</label>
+      <input type="number" id="marks_${problemCounter}" value="5" required>
+    `;
+    
+    container.appendChild(problemSection);
+    problemCounter++;
+  }
+
+  function getJSON() {
+    const problems = [];
+    for (let i = 1; i < problemCounter; i++) {
+      const problem_no = document.getElementById(`problem_no_${i}`).value;
+      const problem = document.getElementById(`problem_${i}`).value;
+      const marks = document.getElementById(`marks_${i}`).value;
+
+      if (problem_no && problem && marks) {
+        problems.push({
+          problem_no,
+          problem,
+          marks: parseInt(marks)
+        });
+      }
+    }
+
+    return JSON.stringify(problems, null, 2);
+  }
+
+  function downloadJSON() {
+    const jsonString = getJSON();
+    const blob = new Blob([jsonString], { type: 'application/json' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'problems.json';
+    link.click();
+  }
+
+  function copyJSON() {
+    const jsonString = getJSON();
+    navigator.clipboard.writeText(jsonString).then(() => {
+      alert('JSON copied to clipboard!');
+    }, (err) => {
+      console.error('Failed to copy JSON: ', err);
+    });
+  }
+</script>
+
+</body>
+</html>
