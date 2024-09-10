@@ -68,5 +68,26 @@
     "college": "MRCE",
     "year": "2nd Year",
     "branch": "CSE (AI & ML)"
+  },
+  {
+    "name": "G Sangamesh",
+    "htno": "23Q91A6785",
+    "college": "MRCE",
+    "year": "2nd Year",
+    "branch": "CSE (DS)"
+  },
+  {
+    "name": "Maneesh",
+    "htno": "23N31A66A3",
+    "college": "MRCET",
+    "year": "2nd Year",
+    "branch": "CSE (AI & ML)"
+  },
+  {
+    "name": "Arvind Singh",
+    "htno": "23Q91A66C4",
+    "college": "MRCE",
+    "year": "2nd Year",
+    "branch": "CSE (AI & ML)"
   }
 ]
