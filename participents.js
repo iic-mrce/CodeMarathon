@@ -15,8 +15,8 @@ $(document).ready(function() {
         participantRows.forEach(participant => {
             const row = `
             <tr>
+            <td>${participant.htno}</td>
                 <td>${participant.name}</td>
-                <td>${participant.htno}</td>
                 <td>${participant.college}</td>
                 <td>${participant.year}</td>
                 <td>${participant.branch}</td>
