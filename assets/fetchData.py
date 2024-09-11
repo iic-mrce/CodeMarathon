@@ -53,6 +53,8 @@ for username in usernames:
             'easySolved': easy_solved,
             'mediumSolved': medium_solved,
             'hardSolved': hard_solved,
+            'round2': 0,
+            'round3': 0,
             'acceptanceRate': acceptance_rate
         }
     

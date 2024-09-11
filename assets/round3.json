@@ -1,14 +1,17 @@
 [
   {
     "problem_no": "1",
-    "problem": "round 3 question 1"
+    "problem": "round 3 question 1",
+    "marks": 5
   },
   {
     "problem_no": "2",
-    "problem": "round 3 question 2"
+    "problem": "round 3 question 2",
+    "marks": 5
   },
   {
     "problem_no": "3",
-    "problem": "round 3 question 3 round 3 question 3"
+    "problem": "round 3 question 3 round 3 question 3",
+    "marks": 5
   }
 ]
