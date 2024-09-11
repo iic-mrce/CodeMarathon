@@ -10,7 +10,7 @@ Welcome to **Code Marathon 2024**, a thrilling competitive programming event des
 
 ### Download the App
 Get the Code Marathon desktop app [here](https://github.com/iic-mrce/CodeMarathon/raw/main/desktop%20app/CodeMarathon2024%20Setup%201.5.0.exe).
-
+website: https://iic-mrce.github.io/CodeMarathon/
 ---
 
 ## Inside the Competition
