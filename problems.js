@@ -12,7 +12,7 @@ $(document).ready(function () {
       // Iterate through the JSON data and append rows to the table
       $.each(data, function (index, item) {
         $('#round2Table tbody').append(
-          '<tr><td>' + item.problem_no + '</td><td><pre><code>' + $('<div>').text(item.problem).html() + '</code></pre></td><td>' + item.marks + '</td></tr>'
+          '<tr><td>' + item.problem_no + '</td><td><pre><code>' + $('<div>').text(item.problem).html() + '</code></pre></td><td> Points: ' + item.marks + '</td></tr>'
         );
       });
     });
@@ -20,7 +20,7 @@ $(document).ready(function () {
       // Iterate through the JSON data and append rows to the table
       $.each(data, function (index, item) {
         $('#round3Table tbody').append(
-          '<tr><td>' + item.problem_no + '</td><td><pre><code>' + $('<div>').text(item.problem).html() + '</code></pre></td><td>' + item.marks + '</td></tr>'
+          '<tr><td>' + item.problem_no + '</td><td><pre><code>' + $('<div>').text(item.problem).html() + '</code></pre></td><td> Points: ' + item.marks + '</td></tr>'
         );
       });
     });

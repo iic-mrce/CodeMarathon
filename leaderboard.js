@@ -22,6 +22,8 @@ $(document).ready(function() {
                 easySolved: 0,
                 mediumSolved: 0,
                 hardSolved: 0,
+                round2: 0,
+                round3: 0,
                 acceptanceRate: 0
             };
         }

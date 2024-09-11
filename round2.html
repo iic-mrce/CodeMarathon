@@ -12,6 +12,93 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <script src="index.js"></script>
     <script src="problems.js"></script>
+    <style>
+      /* Style for the entire table */
+      table {
+        width: 100%; /* Full width of the container */
+        border-collapse: collapse; /* Remove space between borders */
+        table-layout: fixed; /* Fixed layout for consistent column widths */
+      }
+      
+      /* Style for table headers */
+      th {
+        background-color: #f4f4f423; /* Light gray background for headers */
+        color: #333; /* Darker text color for contrast */
+        padding: 10px; /* Add padding for readability */
+        border: 1px solid #ddd; /* Border similar to table cells */
+        text-align: left; /* Align text to the left */
+        font-weight: bold; /* Make header text bold */
+      }
+      
+      /* Style for table cells */
+      td {
+        padding: 10px; /* Add padding for readability */
+        border: 1px solid #ddd; /* Border similar to headers */
+      }
+      
+      /* Set specific width for first and last columns */
+      th:first-child, td:first-child {
+        width: 150px; /* Fixed width for the first column */
+      }
+      
+      th:last-child, td:last-child {
+        width: 150px; /* Fixed width for the last column */
+      }
+      
+      /* Allow the middle column to take up the remaining space */
+      th:nth-child(2), td:nth-child(2) {
+        width: auto; /* The middle column takes up the remaining space */
+      }
+      
+      /* Style for <pre> blocks */
+      pre {
+        white-space: pre-wrap; /* Allow text to wrap */
+        word-wrap: break-word; /* Break long words if necessary */
+        overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+        max-width: 100%; /* Prevent exceeding the width of the containing cell */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      
+      /* Style for <code> blocks */
+      code {
+        display: block; /* Ensure code block takes the full width */
+        overflow-x: auto; /* Enable horizontal scrolling if needed */
+        max-width: 100%; /* Prevent exceeding the width of the containing element */
+        white-space: pre-wrap; /* Wrap long lines */
+        word-wrap: break-word; /* Break long words */
+      }
+      
+      /* Media query for screens smaller than 768px (typical mobile devices) */
+      @media (max-width: 768px) {
+        table {
+          display: block; /* Make table behave like a block element */
+          overflow-x: auto; /* Enable horizontal scrolling for large tables */
+          white-space: nowrap; /* Prevent text wrapping in table */
+        }
+      
+        /* Stack the table headers and cells vertically for small screens */
+        th, td {
+          display: block;
+          width: 100%; /* Full width of the block */
+          box-sizing: border-box; /* Ensure padding is included in width */
+        }
+      
+        /* Ensure <pre> and <code> elements don't overflow */
+        pre, code {
+          white-space: pre-wrap; /* Keep wrapping */
+          word-wrap: break-word; /* Handle long words */
+          overflow-x: auto; /* Allow horizontal scrolling */
+        }
+      
+        /* Remove fixed width for first and last columns on mobile */
+        th:first-child, td:first-child,
+        th:last-child, td:last-child {
+          width: 100%;
+        }
+      }
+      
+          </style>
   </head>
   <body>
     <section id="home">
@@ -26,7 +113,7 @@
     </section>
     <section id="round-details">
       <h1>Round 2 Problems</h1>
-      <table id="round2Table" class="table" border="1">
+      <table id="roundTable" class="table" border="1">
         <thead>
           <tr>
             <th>Problem No.</th>
@@ -38,6 +125,7 @@
           <!-- Data will be inserted here -->
         </tbody>
       </table>
+      <p>Questions Will be released at 1:15 PM</p>
     </section>
     <div id="bg"></div>
 
