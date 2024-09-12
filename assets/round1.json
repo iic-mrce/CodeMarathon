@@ -1,15 +1,137 @@
 [
-    {
-      "problem_no": "1",
-      "problem": "round 1 question 1"
-    },
-    {
-      "problem_no": "2",
-      "problem": "round 1 question 2"
-    },
-    {
-      "problem_no": "3",
-      "problem": "round 1 question 3"
-    }
-  ]
-  
+  {
+    "problem_no": "1",
+    "problem": "Two Sum: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+    "marks": 5
+  },
+  {
+    "problem_no": "2235",
+    "problem": "Add Two Integers: Given two integers num1 and num2, return the sum of the two integers.",
+    "marks": 5
+  },
+  {
+    "problem_no": "2413",
+    "problem": "Smallest Even Multiple: Given a positive integer n, return the smallest positive integer that is a multiple of both 2 and n.",
+    "marks": 5
+  },
+  {
+    "problem_no": "2469",
+    "problem": "Convert the Temperature: You are given a non-negative floating point number rounded to two decimal places celsius, that denotes the temperature in Celsius.",
+    "marks": 5
+  },
+  {
+    "problem_no": "3110",
+    "problem": "Score of a String: You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.",
+    "marks": 5
+  },
+  {
+    "problem_no": "2798",
+    "problem": "Number of Employees Who Met the Target: There are n employees in a company, numbered from 0 to n - 1. Each employee i has worked for hours[i] hours in the company.",
+    "marks": 5
+  },
+  {
+    "problem_no": "1365",
+    "problem": "How Many Numbers Are Smaller Than the Current Number: Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j's such that j != i and nums[j] < nums[i].",
+    "marks": 5
+  },
+  {
+    "problem_no": "115",
+    "problem": "Distinct Subsequences: Given two strings s and t, return the number of distinct subsequences of s which equals t.",
+    "marks": 10
+  },
+  {
+    "problem_no": "70",
+    "problem": "Climbing Stairs: You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?",
+    "marks": 5
+  },
+  {
+    "problem_no": "412",
+    "problem": "Fizz Buzz: Given an integer n, return a string array answer (1-indexed) where: answer[i] == FizzBuzz if i is divisible by 3 and 5. answer[i] == Fizz if i is divisible by 3. answer[i] == Buzz if i is divisible by 5. answer[i] == i (as a string) if none of the above conditions are true.",
+    "marks": 5
+  },
+  {
+    "problem_no": "55",
+    "problem": "Jump Game: You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.",
+    "marks": 7
+  },
+  {
+    "problem_no": "131",
+    "problem": "Palindrome Partitioning: Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.",
+    "marks": 7
+  },
+  {
+    "problem_no": "191",
+    "problem": "Number of 1 Bits: Write a function that takes the binary representation of a positive integer and returns the number of set bits it has (also known as the Hamming weight).",
+    "marks": 5
+  },
+  {
+    "problem_no": "344",
+    "problem": "Reverse String: Write a function that reverses a string. The input string is given as an array of characters s.",
+    "marks": 5
+  },
+  {
+    "problem_no": "461",
+    "problem": "Hamming Distance: The Hamming distance between two integers is the number of positions at which the corresponding bits are different.",
+    "marks": 5
+  },
+  {
+    "problem_no": "771",
+    "problem": "Jewels and Stones: You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.",
+    "marks": 5
+  },
+  {
+    "problem_no": "832",
+    "problem": "Flipping an Image: Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image. To flip an image horizontally means that each row of the image is reversed.",
+    "marks": 5
+  },
+  {
+    "problem_no": "135",
+    "problem": "Candy: There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.",
+    "marks": 10
+  },
+  {
+    "problem_no": "224",
+    "problem": "Basic Calculator: Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.",
+    "marks": 10
+  },
+  {
+    "problem_no": "4",
+    "problem": "Median of Two Sorted Arrays: Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.",
+    "marks": 10
+  },
+  {
+    "problem_no": "5",
+    "problem": "Longest Palindromic Substring: Given a string s, return the longest palindromic substring in s.",
+    "marks": 7
+  },
+  {
+    "problem_no": "51",
+    "problem": "N-Queens: The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.",
+    "marks": 10
+  },
+  {
+    "problem_no": "60",
+    "problem": "Permutation Sequence: The set [1, 2, 3, ..., n] contains a total of n! unique permutations.",
+    "marks": 10
+  },
+  {
+    "problem_no": "74",
+    "problem": "Search a 2D Matrix: You are given an m x n integer matrix matrix with the following two properties: Each row is sorted in non-decreasing order. The first integer of each row is greater than the last integer of the previous row.",
+    "marks": 7
+  },
+  {
+    "problem_no": "77",
+    "problem": "Combinations: Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n]. You may return the answer in any order.",
+    "marks": 7
+  },
+  {
+    "problem_no": "85",
+    "problem": "Maximal Rectangle: Given a rows x cols binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.",
+    "marks": 10
+  },
+  {
+    "problem_no": "96",
+    "problem": "Unique Binary Search Trees: Given an integer n, return the number of structurally unique BST's (binary search trees) which has exactly n nodes of unique values from 1 to n.",
+    "marks": 7
+  }
+]
