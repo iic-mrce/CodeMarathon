@@ -1,1073 +1,1498 @@
 [
   {
-    "name": "R PRAVEEN REDDY",
-    "htno": "22Q91A66H7",
-    "college": "MRCE",
+    "name": "Chittampalli Bhanuprakash",
+    "htno": "22N31A1243",
+    "college": "MRCET",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "IT",
+    "": ""
   },
   {
     "name": "L.sreenu",
     "htno": "24N35A0533",
     "college": "MRCET",
     "year": "2nd Year",
-    "branch": "CSE"
-  },
-  {
-    "name": "Chittampalli Bhanuprakash",
-    "htno": "22N31A1243",
-    "college": "MRCET",
-    "year": "3rd Year",
-    "branch": "IT"
-  },
-  {
-    "name": "Ram Charan",
-    "htno": "23Q91A66H5",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "BAGGI RISHIKA",
-    "htno": "23Q91A05X0",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE"
-  },
-  {
-    "name": "MANDALA BHUVAN",
-    "htno": "23Q91A05T9",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE"
-  },
-  {
-    "name": "Rakshitha",
-    "htno": "23Q91A66F0",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Mohammed Nawaz",
-    "htno": "23Q91A66F7",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "B CHANDU",
-    "htno": "23Q91A66C6",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Madipelly srimaye",
-    "htno": "23Q91A66F3",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "G Sangamesh",
-    "htno": "23q91a6785",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(DS)"
+    "branch": "CSE",
+    "": ""
   },
   {
     "name": "Maneesh",
     "htno": "23N31A66A3",
     "college": "MRCET",
     "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM",
+    "": ""
+  },
+  {
+    "name": "BAGGI RISHIKA",
+    "htno": "23Q91A05X0",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "MANDALA BHUVAN",
+    "htno": "23Q91A05T9",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "T.Nikitha",
+    "htno": "23Q91A05P6",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "T.Alekhya",
+    "htno": "23Q91A05P5",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "Rohan",
+    "htno": "23Q91A05K1",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "Hemanth kumar B",
+    "htno": "24Q95A0512",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "Seelam jay chandrahas royal",
+    "htno": "23Q91A0551",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "K. TARUN TEJA",
+    "htno": "23Q91A05G4",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "REDDYPALLY NISHAL REDDY",
+    "htno": "23N31A05AG",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "Kandhada Narender",
+    "htno": "24Q95A6601",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Garapati Juhitharamya",
+    "htno": "23Q91A6622",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Ganji Sowmya",
+    "htno": "23Q91A6621",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "E.Hema",
+    "htno": "23Q91A6618",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Datla Prasheel Varma",
+    "htno": "23Q91A6648",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "BOMMENA RUPESH",
+    "htno": "23Q91A6605",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Chinthala Pavan Reddy",
+    "htno": "23q91a6673",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Eesha M.Kalyanshetty",
+    "htno": "23Q91A6616",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Jahnavi",
+    "htno": "23Q91A6638",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Nidhi Thota",
+    "htno": "23Q91A6645",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Akhil",
+    "htno": "23Q91A6631",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "R.Akash",
+    "htno": "23Q91A6652",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Kevin",
+    "htno": "23Q91A6633",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Archana",
+    "htno": "23Q91A6619",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Snehitha",
+    "htno": "23Q91A6661",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "LOCHANI",
+    "htno": "23Q91A6613",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Khyathi Repaka",
+    "htno": "23Q91A6653",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Punna Karthik",
+    "htno": "23Q91A6649",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "A.PALLAVI",
+    "htno": "23Q91A6601",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Manasa B",
+    "htno": "23Q91A6606",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Santhoshi.S",
+    "htno": "23Q91A6655",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "MADHAV",
+    "htno": "23Q91A6646",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "R.Srinidhi",
+    "htno": "23Q91A6651",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "T.Deepthi",
+    "htno": "23Q91A6657",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "L.Anjali",
+    "htno": "23Q91A6636",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "B.Sameera",
+    "htno": "23Q91A6604",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "J.akhila",
+    "htno": "23Q91A6629",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "M.Bhavya sri",
+    "htno": "23Q91A6639",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Keshava Reddy",
+    "htno": "23Q91A6644",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Maneesh",
+    "htno": "23N31A66A3",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Yadav Praveen",
+    "htno": "24Q95A6608",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "P.Lavanya",
+    "htno": "23q91a66a0",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "B.harshavardhan reddy",
+    "htno": "23q91a6666",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "P. Gowthami",
+    "htno": "23Q91A66A4",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "SALLOJU LIPIKA",
+    "htno": "23Q91A66A7",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "karthik",
+    "htno": "23Q91A6682",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "sudhiksha",
+    "htno": "23Q91A6691",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "dheekshitha",
+    "htno": "23Q91A6689",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "vyshnavi",
+    "htno": "23Q91A6692",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "A tharun",
+    "htno": "23Q91A6664",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "swasthik",
+    "htno": "23Q91A66A5",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "revanth",
+    "htno": "23Q91A6695",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "sindhu",
+    "htno": "23Q91A66B3",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "maheshwari",
+    "htno": "23Q91A6698",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "prem kumar",
+    "htno": "23Q91A6676",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "rasagnya",
+    "htno": "23Q91A6672",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "madhumathi",
+    "htno": "23Q91A6674",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "D.Thrinath",
+    "htno": "23Q91A6675",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "p.rajesh",
+    "htno": "23Q91A66A1",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "V.Vedha sai",
+    "htno": "23Q91A66C0",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Ch.Jonathan",
+    "htno": "24Q95A6606",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Ram Charan",
+    "htno": "23Q91A66H5",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Rakshitha",
+    "htno": "23Q91A66F0",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Mohammed Nawaz",
+    "htno": "23Q91A66F7",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "B CHANDU",
+    "htno": "23Q91A66C6",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Madipelly srimaye",
+    "htno": "23Q91A66F3",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
   },
   {
     "name": "Arvind Singh",
     "htno": "23Q91A66C4",
     "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Purushottam",
-    "htno": "22Q91A66B5",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "kalluri Saketh Reddy",
-    "htno": "22Q91A66E8",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "N PARTHIBAN",
-    "htno": "22Q91A66G9",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "P SAHITH REDDY",
-    "htno": "22Q91A66H6",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
   },
   {
     "name": "K.Rakshitha",
     "htno": "23Q91A66F0",
     "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
   },
   {
     "name": "T.varshini",
     "htno": "23Q91A66I0",
     "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "M.Nagamani",
+    "htno": "23Q91A66F4",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Anji palleboina",
+    "htno": "23Q91A66G5",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Mohammed faisal rahmat",
+    "htno": "23Q91A66F6",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "G.Sharath Chandra",
+    "htno": "23Q91A66D9",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Subhash",
+    "htno": "23Q91A66F5",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Biradar Mayuri",
+    "htno": "23Q91A66C9",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "N.Nithin",
+    "htno": "23Q91A66G3",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "C.vishnu",
+    "htno": "23Q91A66D3",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "R.Harshavardhini",
+    "htno": "23Q91A66H4",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "B. Abhinaya",
+    "htno": "23Q91A66C8",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Kadavilla Anmol",
+    "htno": "23Q91A66E9",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "GADELA ANIL KUMAR",
+    "htno": "23Q91A66E0",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "R.Nishanth",
+    "htno": "23Q91A66H2",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Gudlanarva Tarun",
+    "htno": "23Q91A66E6",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "B. Utkarsh",
+    "htno": "23Q91A66D0",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "J.SAI CHANDRA",
+    "htno": "23Q91A66E8",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "D.VARSHITH",
+    "htno": "23Q91A66D7",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Bhanu Prasad",
+    "htno": "23Q91A66D2",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Dola Vamsi",
+    "htno": "23q91a66d5",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "AJAY MUSKU",
+    "htno": "23Q91A66G0",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Avinash",
+    "htno": "23Q91A66G9",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "M.Varaprasad",
+    "htno": "23Q91A66F2",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "P.Kamal Karthik",
+    "htno": "23Q91A66G4",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Sathya Prasad",
+    "htno": "23q91a66i1",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Bhavana Muni",
+    "htno": "23Q91A66C7",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "MOHAMMED TAAHA TAHSEEM",
+    "htno": "23Q91A66F8",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Bhavana Muni",
+    "htno": "23Q91A66C7",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Y.pavan",
+    "htno": "23Q91A66C2",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "E.sanjay sahu",
+    "htno": "23Q91A66D8",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "T.lavanya",
+    "htno": "23Q91A66H9",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "V.Akhil",
+    "htno": "23Q91A66I2",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "V.Naresh",
+    "htno": "23Q91A66I3",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "G Sangamesh",
+    "htno": "23q91a6785",
+    "college": "MRCE",
+    "year": "2nd year",
+    "branch": "CSD",
+    "": ""
+  },
+  {
+    "name": "Giriganti Akhila",
+    "htno": "22Q91A0594",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "Aemukunta Akhila",
+    "htno": "22Q91A0565",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSE",
+    "": ""
+  },
+  {
+    "name": "Bhukya jashwanthi",
+    "htno": "22Q91A0578",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSE",
+    "": ""
   },
   {
     "name": "G.Durgeshwar",
     "htno": "22Q91A6621",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Kandhada Narender",
-    "htno": "24Q95A6601",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Garapati Juhitharamya",
-    "htno": "23Q91A6622",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Yadav Praveen",
-    "htno": "24Q95A6608",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Ganji Sowmya",
-    "htno": "23Q91A6621",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "E.Hema",
-    "htno": "23Q91A6618",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Datla Prasheel Varma",
-    "htno": "23Q91A6648",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "BOMMENA RUPESH",
-    "htno": "23Q91A6605",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "P.Lavanya",
-    "htno": "23q91a66a0",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Chinthala Pavan Reddy",
-    "htno": "23q91a6673",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Eesha.M.Kalyanshetty",
-    "htno": "23Q91A6616",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "B.harshavardhan reddy",
-    "htno": "23q91a6666",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "T.Nikitha",
-    "htno": "23Q91A05P6",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE"
-  },
-  {
-    "name": "T.Alekhya",
-    "htno": "23Q91A05P5",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE"
-  },
-  {
-    "name": "M.Nagamani",
-    "htno": "23Q91A66F4",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Vishnu vardhan",
     "htno": "22Q91A6648",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Jahnavi",
-    "htno": "23Q91A6638",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "P. Gowthami",
-    "htno": "23Q91A66A4",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Druvika pantangi",
     "htno": "22Q91A6647",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Nidhi Thota",
-    "htno": "23Q91A6645",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Akhil",
-    "htno": "23Q91A6631",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Bhavya",
     "htno": "23Q95A6604",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "R.Akash",
-    "htno": "23Q91A6652",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Vyshnavi",
     "htno": "22Q91A6602",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Sruthi",
     "htno": "22Q91A6637",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Ch.Aarthi",
     "htno": "22Q91A6615",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "P.Niharika Reddy",
     "htno": "22Q91A6650",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "M.Bhavitha Gayathri",
     "htno": "22Q91A6643",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "A.NITISH KUMAR",
     "htno": "22Q91A6601",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Kevin",
-    "htno": "23Q91A6633",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Archana",
-    "htno": "23Q91A6619",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Snehitha",
-    "htno": "23Q91A6661",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Gugulothu Vijay kumar",
     "htno": "22Q91A6625",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Bharath Chandra",
     "htno": "22Q91A6609",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Kolipaka raju",
     "htno": "22Q91A6631",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "T saketh Reddy",
     "htno": "22Q91A6661",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "LOCHANI",
-    "htno": "23Q91A6613",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Khyathi Repaka",
-    "htno": "23Q91A6653",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Narendra goud",
     "htno": "22Q91A6607",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Govu Prasad",
     "htno": "22Q91A6624",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "SALLOJU LIPIKA",
-    "htno": "23Q91A66A7",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Punna Karthik",
-    "htno": "23Q91A6649",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "PUNNA KARTHIK",
-    "htno": "23Q91A6649",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "A.PALLAVI",
-    "htno": "23Q91A6601",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Manasa B",
-    "htno": "23Q91A6606",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Santhoshi.S",
-    "htno": "23Q91A6655",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "MULLAPARTI ANITHA",
-    "htno": "22Q91A66G8",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Maheshwaram Navya",
-    "htno": "22Q91A66G3",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Dundhigalla Ashritha",
-    "htno": "22Q91A66E3",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "MADHAV",
-    "htno": "23Q91A6646",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Mannepalli Lahari",
-    "htno": "22Q91A66G5",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Chilakammetla krishna priya",
-    "htno": "22Q91A66D8",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Anji palleboina",
-    "htno": "23Q91A66G5",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Mohammed faisal rahmat",
-    "htno": "23Q91A66F6",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "G.Sharath Chandra",
-    "htno": "23Q91A66D9",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Subhash",
-    "htno": "23Q91A66F5",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Biradar Mayuri",
-    "htno": "23Q91A66C9",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Sathvika",
-    "htno": "22Q91A66F4",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "N.Nithin",
-    "htno": "23Q91A66G3",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "C.vishnu",
-    "htno": "23Q91A66D3",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "B.Vyshnavi",
-    "htno": "22Q91A6677",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "R.Harshavardhini",
-    "htno": "23Q91A66H4",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "B. Abhinaya",
-    "htno": "23Q91A66C8",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Kadavilla Anmol",
-    "htno": "23Q91A66E9",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "GADELA ANIL KUMAR",
-    "htno": "23Q91A66E0",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "R.Nishanth",
-    "htno": "23Q91A66H2",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Gudlanarva Tarun",
-    "htno": "23Q91A66E6",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "R.Srinidhi",
-    "htno": "23Q91A6651",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Ch.Kishore",
     "htno": "23Q95A6601",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Vanam sumanth",
     "htno": "23Q95A6607",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "M Adith",
     "htno": "22Q91A6658",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Karthik Moutam",
     "htno": "22Q91A6642",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Ch. Uma maheshwari",
-    "htno": "22Q91A6679",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Janga Meghana",
     "htno": "22Q91A6627",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "P. Mahesh Reddy",
     "htno": "22q91A6649",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "PALTHIYA SHIRISHA",
     "htno": "22Q91A6646",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "G.sai manikanta",
     "htno": "22Q91A6622",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Nareddy Poojitha",
     "htno": "22Q91A6645",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "T.Deepthi",
-    "htno": "23Q91A6657",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "M Pavan Kumar",
     "htno": "22Q91A6636",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "B. Utkarsh",
-    "htno": "23Q91A66D0",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Eshwar",
     "htno": "22Q91A6664",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Reddy Venkatesh",
     "htno": "22Q91A6655",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "L.Anjali",
-    "htno": "23Q91A6636",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "B.Sameera",
-    "htno": "23Q91A6604",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Allem Rithvik Reddy",
-    "htno": "22Q91A66D2",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "J.akhila",
-    "htno": "23Q91A6629",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "KALYAN DASARI",
-    "htno": "22Q91A6680",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "M.Bhavya sri",
-    "htno": "23Q91A6639",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Mohan Datta",
-    "htno": "22Q91A66C8",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "K.Jahanavi",
     "htno": "22Q91A6628",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Padiloju pavan",
-    "htno": "22Q91A66A9",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Jyothika",
-    "htno": "22Q91Q66C4",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Shaik Arif",
-    "htno": "22Q91A66C2",
-    "college": "mrce",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "T John Deva Kumar",
-    "htno": "22Q91A66I2",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Keerthana Nadimetla",
-    "htno": "22Q91A66H0",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "G.Vishnu Vardhan",
-    "htno": "23Q95A6617",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "V SHANMUKESHWAR",
-    "htno": "23Q95A6619",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Bhavana Muni",
-    "htno": "23Q91A66C7",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "M VIVEK",
-    "htno": "22Q91A66G4",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "J.SAI CHANDRA",
-    "htno": "23Q91A66E8",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "D.VARSHITH",
-    "htno": "23Q91A66D7",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Bhanu Prasad",
-    "htno": "23Q91A66D2",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Dola Vamsi",
-    "htno": "23q91a66d5",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "AJAY MUSKU",
-    "htno": "23Q91A66G0",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Avinash",
-    "htno": "23Q91A66G9",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "M.Varaprasad",
-    "htno": "23Q91A66F2",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "P.Kamal Karthik",
-    "htno": "23Q91A66G4",
-    "college": "Mrce",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Sathya Prasad",
-    "htno": "23q91a66i1",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Syed Rizwan",
-    "htno": "22Q91A66I0",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Md Rizwanuddin",
-    "htno": "22Q91A66G6",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "V.SHANMUKESHWAR",
-    "htno": "23Q95A6619",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Bojja karthaverrya arjun",
-    "htno": "22Q91A66D7",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "R lokesh",
-    "htno": "23Q95A6618",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "KONDRU VIKAS",
-    "htno": "22Q91A66F5",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "MOHAMMED TAAHA TAHSEEM",
-    "htno": "23Q91A66F8",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "B.mounika",
-    "htno": "22Q91A6672",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Bhavana Muni",
-    "htno": "23Q91A66C7",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Kankati soumya",
-    "htno": "22Q91A66F1",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Madavi Teja",
-    "htno": "22Q91A66G1",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Sneha reddy",
-    "htno": "22Q91A66D4",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Kavya",
-    "htno": "22Q91A66E6",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Sindhu",
-    "htno": "22Q91A66F7",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "D.Ravikanth",
-    "htno": "22Q91A66E1",
-    "college": "MRCE",
-    "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
     "name": "Akula Rohith",
     "htno": "22Q91A6603",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
-    "name": "N.Anju",
-    "htno": "22Q91A66H1",
+    "name": "siddapa",
+    "htno": "22Q91A6626",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
   },
   {
-    "name": "SIRIMILLA SRILAXMI",
-    "htno": "22Q91A66H9",
+    "name": "Sai Teja",
+    "htno": "22Q91A6620",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM A",
+    "": ""
+  },
+  {
+    "name": "Purushottam",
+    "htno": "22Q91A66B5",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "B.Vyshnavi",
+    "htno": "22Q91A6677",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Ch. Uma maheshwari",
+    "htno": "22Q91A6679",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "gireesh",
+    "htno": "22Q91A6688",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Mohan Datta",
+    "htno": "22Q91A66C8",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Padiloju pavan",
+    "htno": "22Q91A66A9",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Jyothika",
+    "htno": "22Q91Q66C4",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "Shaik Arif",
+    "htno": "22Q91A66C2",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "B.mounika",
+    "htno": "22Q91A6672",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "dhruva",
+    "htno": "22Q91A6675",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "mubin",
+    "htno": "22Q91A6698",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
+  },
+  {
+    "name": "B.mounika",
+    "htno": "22Q91A6672",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM B",
+    "": ""
   },
   {
     "name": "Vinuthna Duggondi",
     "htno": "22Q91A6681",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
-  },
-  {
-    "name": "Hemanth kumar B",
-    "htno": "24Q95A0512",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE"
-  },
-  {
-    "name": "Seelam jay chandrahas royal",
-    "htno": "23Q91A0551",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE"
-  },
-  {
-    "name": "K. TARUN TEJA",
-    "htno": "23Q91A05G4",
-    "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE"
+    "branch": "CSM B",
+    "": ""
   },
   {
     "name": "Aksheetha R",
     "htno": "22Q91A6666",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM B",
+    "": ""
   },
   {
     "name": "G Abhigna",
     "htno": "22Q91A6687",
     "college": "MRCE",
     "year": "3rd Year",
-    "branch": "CSE(AI&ML)"
+    "branch": "CSM B",
+    "": ""
   },
   {
-    "name": "Keshava Reddy",
-    "htno": "23Q91A6644",
+    "name": "R PRAVEEN REDDY",
+    "htno": "22Q91A66H7",
     "college": "MRCE",
-    "year": "2nd Year",
-    "branch": "CSE(AI&ML)"
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "kalluri Saketh Reddy",
+    "htno": "22Q91A66E8",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "N PARTHIBAN",
+    "htno": "22Q91A66G9",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "P SAHITH REDDY",
+    "htno": "22Q91A66H6",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "MULLAPARTI ANITHA",
+    "htno": "22Q91A66G8",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Maheshwaram Navya",
+    "htno": "22Q91A66G3",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Dundhigalla Ashritha",
+    "htno": "22Q91A66E3",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Mannepalli Lahari",
+    "htno": "22Q91A66G5",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Chilakammetla krishna priya",
+    "htno": "22Q91A66D8",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Sathvika",
+    "htno": "22Q91A66F4",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Allem Rithvik Reddy",
+    "htno": "22Q91A66D2",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "T John Deva Kumar",
+    "htno": "22Q91A66I2",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Keerthana Nadimetla",
+    "htno": "22Q91A66H0",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "G.Vishnu Vardhan",
+    "htno": "23Q95A6617",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "V SHANMUKESHWAR",
+    "htno": "23Q95A6619",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Syed Rizwan",
+    "htno": "22Q91A66I0",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Md Rizwanuddin",
+    "htno": "22Q91A66G6",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "V.SHANMUKESHWAR",
+    "htno": "23Q95A6619",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Bojja karthaverrya arjun",
+    "htno": "22Q91A66D7",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "R lokesh",
+    "htno": "23Q95A6618",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "KONDRU VIKAS",
+    "htno": "22Q91A66F5",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Kankati soumya",
+    "htno": "22Q91A66F1",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Madavi Teja",
+    "htno": "22Q91A66G1",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Sneha reddy",
+    "htno": "22Q91A66D4",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Kavya",
+    "htno": "22Q91A66E6",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Sindhu",
+    "htno": "22Q91A66F7",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "D.Ravikanth",
+    "htno": "22Q91A66E1",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "M.vivek",
+    "htno": "22Q91A66G4",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "k. srikeerthi",
+    "htno": "22Q91A66F6",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "S.Sri laxmi",
+    "htno": "22Q91A66H9",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "N.Anju",
+    "htno": "22Q91A66H1",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "SIRIMILLA SRILAXMI",
+    "htno": "22Q91A66H9",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
+  },
+  {
+    "name": "Yamba Pavitra",
+    "htno": "22Q91A66I9",
+    "college": "MRCE",
+    "year": "3rd Year",
+    "branch": "CSM C",
+    "": ""
   }
 ]

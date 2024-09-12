@@ -35,7 +35,7 @@ $(document).ready(function() {
         participants.forEach(participant => {
             const username = findUsername(participant.htno);
             const stats = getUserStats(username);
-            const totalScore = stats.easySolved*1 + stats.mediumSolved*2 + stats.hardSolved*3 + stats.round2 + stats.round3;
+            const totalScore = stats.easySolved*5 + stats.mediumSolved*7 + stats.hardSolved*10 + stats.round2 + stats.round3;
             
             // Push an object containing the participant's details and score into the array
             participantRows.push({
@@ -45,7 +45,7 @@ $(document).ready(function() {
                 year: participant.year,
                 branch: participant.branch,
                 username: username || '-',
-                easySolved: stats.easySolved * 1 + stats.mediumSolved * 2 + stats.hardSolved * 3,
+                easySolved: stats.easySolved * 5 + stats.mediumSolved * 7 + stats.hardSolved * 10,
                 mediumSolved: stats.round2,
                 hardSolved: stats.round3,
                 acceptanceRate: stats.acceptanceRate,
