@@ -1,17 +1,27 @@
 [
   {
-    "problem_no": "1",
-    "problem": "round 3 question 1",
-    "marks": 5
+    "problem_no": "1. Quiz App",
+    "problem": "Develop a quiz application that presents multiple-choice questions to the user and displays the score at the end.\n\nRequirements:\nImplement a console or web-based quiz app.\nThe app should display a series of multiple-choice questions.\nEach question should have four options.\nThe user should be able to select an option and submit answers.\nAfter all questions are answered, display the total score.\n\nInstructions:\n1. Create a question bank with at least 5 questions.\n2. Use a simple scoring mechanism (e.g., 1 point per correct answer).\n3. Implement user input and handle responses.\n4. Provide feedback on the number of correct answers.",
+    "marks": 20
   },
   {
-    "problem_no": "2",
-    "problem": "round 3 question 2",
-    "marks": 5
+    "problem_no": "2. Tic-Tac-Toe",
+    "problem": " Build a simple Tic-Tac-Toe game where two players can take turns to place their marks on a 3x3 grid.\n\nRequirements:\n\nDevelop a console or web-based Tic-Tac-Toe game.\nThe game should display a 3x3 grid.\nPlayers should take turns to place their marks (X or O).\nThe game should detect win conditions (three marks in a row) or a draw.\nDisplay the result (win or draw) and offer an option to restart the game.\nInstructions:\n\nImplement the game logic to handle turns, mark placement, and win conditions.\nDisplay the current state of the grid after each move.\nHandle user inputs to place marks on the grid.\nProvide feedback on the game result and the option to restart.",
+    "marks": 20
   },
   {
-    "problem_no": "3",
-    "problem": "round 3 question 3 round 3 question 3",
-    "marks": 5
+    "problem_no": "3. Password Generator",
+    "problem": "Create a password generator tool that produces random passwords based on user-defined criteria.\n\nRequirements:\nDevelop a console-based password generator.\nThe user should be able to specify the length of the password.\nInclude options for including uppercase letters, lowercase letters, digits, and special characters.\nDisplay the generated password.\n\nInstructions:\n1. Prompt the user for the desired length of the password.\n2. Ask the user which character types to include.\n3. Generate a password based on the criteria and display it.\n",
+    "marks": 20
+  },
+  {
+    "problem_no": "4. To-Do List App",
+    "problem": "Objective: Build a web-based to-do list application that allows users to add, view, update, and delete tasks.\n\nRequirements:\nDevelop a simple to-do list application using HTML, CSS, and JavaScript.\nUsers should be able to:\n  Add new tasks.\n  View a list of tasks.\n  Mark tasks as completed or pending.\n  Delete tasks from the list.\nThe UI should be user-friendly and responsive.\n\nInstructions:\n1. Implement the core functionality using JavaScript for task management.\n2. Use HTML/CSS to create the layout and style the application.\n3. Ensure that the to-do list is interactive and updates in real-time.\n",
+    "marks": 20
+  },
+  {
+    "problem_no": "5. Sign-In Page with Form Validation",
+    "problem": "Create a sign-in page with form validation to ensure user inputs meet certain criteria.\n\nRequirements:\nDevelop a web-based sign-in page using HTML, CSS, and JavaScript.\nThe form should include fields for username and password.\nImplement validation to check:\n  Username is not empty and meets a minimum length requirement.\n  Password is not empty and meets criteria (e.g., at least 8 characters, including uppercase, lowercase, digit, and special character).\nDisplay error messages for invalid inputs.\n\nInstructions:\n1. Create the sign-in form with appropriate fields and labels.\n2. Implement JavaScript validation for the form inputs.\n3. Display relevant error messages if the validation fails.\n4. Style the form to make it visually appealing.\n",
+    "marks": 20
   }
 ]
