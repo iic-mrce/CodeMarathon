@@ -1,54 +1,35 @@
 $(document).ready(function() {
     $('#participantsTable').hide();
     // Load the participants.json, usernames.json, and user_stats.json
-    $.when(
-        $.getJSON('./assets/participants.json'),
-        $.getJSON('./assets/usernames.json'),
-        $.getJSON('./assets/user_stats.json')
-    ).done(function(participantsData, usernamesData, userStatsData) {
+              $.when(
+        $.getJSON('./assets/leaderboard.json'),
+        $.getJSON('./assets/leaderboard.json'),
+    ).done(function(participantsData) {
         const participants = participantsData[0]; // Participants JSON array
-        const usernames = usernamesData[0];       // Usernames JSON array
-        const userStats = userStatsData[0];       // User stats JSON object
-        
-        // Function to find username based on htno
-        function findUsername(htno) {
-            const user = usernames.find(u => u.htno === htno);
-            return user ? user.username : null;
-        }
-        
-        // Function to get user stats by username
-        function getUserStats(username) {
-            return userStats[username] || {
-                easySolved: 0,
-                mediumSolved: 0,
-                hardSolved: 0,
-                round2: 0,
-                round3: 0,
-                acceptanceRate: 0
-            };
-        }
+
 
         // Array to hold participants along with their scores
         let participantRows = [];
-
+        let serialNo = 1;
+        console.log(participantRows);
         // Iterate through each participant and calculate the total score
         participants.forEach(participant => {
-            const username = findUsername(participant.htno);
-            const stats = getUserStats(username);
-            const totalScore = stats.easySolved*5 + stats.mediumSolved*7 + stats.hardSolved*10 + stats.round2 + stats.round3;
-            
+            // const r1 = (participant.easy || 0)*2+(participant.easy || 0)*3+(participant.hard || 0)*5;
+            const r1 = 0;
+            const r2 = (participant.round2 || 0);
+            const r3 = (participant.round3 || 0) * 3;
+            const totalScore = r1+r2+r3;
+            console.log(participant);
             // Push an object containing the participant's details and score into the array
             participantRows.push({
-                name: capitalizeWords(participant.name),
+                name: capitalizeWords(participant.Name),
                 htno: participant.htno,
                 college: participant.college,
                 year: participant.year,
                 branch: participant.branch,
-                username: username || '-',
-                easySolved: stats.easySolved * 5 + stats.mediumSolved * 7 + stats.hardSolved * 10,
-                mediumSolved: stats.round2,
-                hardSolved: stats.round3,
-                acceptanceRate: stats.acceptanceRate,
+                round1: r1,
+                round2: r2,
+                round3: r3,
                 totalScore: totalScore
             });
         });
@@ -74,30 +55,34 @@ $(document).ready(function() {
             //     </tr>
             // `;
 
-            const row = `
-            <tr>
-                <td>${participant.name}</td>
-                <td>${participant.htno}</td>
-                <td>${participant.college}</td>
-                <td>${participant.year}</td>
-                <td>${participant.branch}</td>
-                <td>${participant.username}</td>
-                <td>${participant.easySolved}</td>
-                <td>${participant.mediumSolved}</td>
-                <td>${participant.hardSolved}</td>
-                <td>${participant.totalScore}</td>
-            </tr>
-        `;
-
         //     const row = `
         //     <tr>
+        //         <td>${serialNo++}</td>
         //         <td>${participant.name}</td>
         //         <td>${participant.htno}</td>
         //         <td>${participant.college}</td>
         //         <td>${participant.year}</td>
         //         <td>${participant.branch}</td>
+        //         <td>${participant.round1}</td>
+        //         <td>${participant.round2}</td>
+        //         <td>${participant.round3}</td>
+        //         <td>${participant.totalScore}</td>
         //     </tr>
-        // `;
+        // `;                <th><a href="certificate.html?cid=${participant.htno.toUpperCase()}">${participant.name}</a></th>
+
+
+
+            const row = `
+            <tr>
+                <td>${serialNo++}</td>
+                <th>${participant.name}</th>
+                <td>${participant.htno}</td>
+                <td>${participant.college}</td>
+                <td>${participant.year}</td>
+                <td>${participant.branch}</td>
+                <td>${participant.round3}</td>
+            </tr>
+        `;
             // Append the row to the table body
             $('#participantsTable tbody').append(row);
         });

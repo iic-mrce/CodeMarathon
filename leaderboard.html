@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
     <script src="leaderboard.js"></script>
+    <link rel="stylesheet" href="winner.css">
   </head>
   <body>
     <section id="home">
@@ -24,22 +26,42 @@
         <a href="./" class="button">About Competition</a>
       </div>
     </section>
+    <section id="winners">
+      <h1>Winners</h1>
+      <div>
+        <div>
+          <h3>Winner Up</h3>
+        <div id="first-container"></div>
+        <img src="./assets/r.jpg" alt="">
+        <p>Akula Rohith III CSM A MRCE</p>
+        </div>
+        <div>
+          <h3>Runner Up</h3>
+        <div id="sec-container"></div>
+        <img src="./assets/s.jpg" alt="">
+        <p>Sheethal VI CSM C MRCE</p>
+        </div>
+      </div>
+    </section>
+    <div id="papers-container"></div>
+    
     <section id="participents">
-      <h1>Leaderboard</h1>
+      <h1>Round 3 Leaderboard</h1>
       <table id="participantsTable" class="table" border="1">
         <thead>
           <tr>
+            
+            <th>Rank</th>
             <th>Name</th>
             <th>HTNO</th>
             <th>College</th>
             <th>Year</th>
             <th>Branch</th>
-            <th>Username</th>
-            <th>Round 1</th>
-            <th>Round 2</th>
+            <!-- <th>Round 1</th> -->
+            <!-- <th>Round 2</th> -->
             <th>Round 3</th>
             <!-- <th>Acceptance Rate (%)</th> -->
-            <th>Total Score</th>
+            <!-- <th>Total Score</th> -->
           </tr>
         </thead>
         <tbody>

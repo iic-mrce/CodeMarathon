@@ -4,7 +4,7 @@ $(document).ready(function() {
         let participantRows = [];
         participantsData.forEach(participant => {
             participantRows.push({
-                name: capitalizeWords(participant.name),
+                name: capitalizeWords(participant.Name),
                 htno: participant.htno,
                 college: participant.college,
                 year: participant.year,

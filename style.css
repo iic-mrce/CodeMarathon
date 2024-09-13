@@ -48,6 +48,9 @@ h4 {
 h6 {
   margin: 0;
 }
+a{
+  z-index: 20;
+}
 #home {
   display: flex;
   align-items: center;
@@ -134,7 +137,6 @@ a > img:hover {
   display: flex;
   align-items: baseline;
   gap: 5%;
-  justify-content: space-evenly;
   padding: 0 7.5%;
 }
 .round > div {
@@ -148,8 +150,22 @@ a > img:hover {
 }
 #coordinators > div, #guidelines > div {
   text-align: center;
-  width: 35%;
+  width: 25%;
   padding: 20px;
+}
+#studentCoordinator{
+  width: 100%;
+}
+.student{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  justify-content: center;
+  gap: 25px 75px;
+}
+.student p{
+  margin: 0;
 }
 #coordinators h1, #guidelines h1 {
   width: 100%;

@@ -45,6 +45,50 @@ $(document).ready(function () {
     });
   });
 
+  
+        // Initialize Lottie animation but do not autoplay or loop
+        var animationFist = lottie.loadAnimation({
+          container: document.getElementById('first-container'),
+          renderer: 'svg',
+          loop: false,
+          autoplay: false, // Disable autoplay initially
+          path: './assets/animations/first.json'
+        });
+      var animationSec = lottie.loadAnimation({
+          container: document.getElementById('sec-container'),
+          renderer: 'svg',
+          loop: false,
+          autoplay: false, // Disable autoplay initially
+          path: './assets/animations/sec.json'
+        });
+      var animationPapers = lottie.loadAnimation({
+          container: document.getElementById('papers-container'),
+          renderer: 'svg',
+          loop: 2,
+          autoplay: false, // Disable autoplay initially
+          path: './assets/animations/papers.json'
+        });
+    
+        // Wait for 2 seconds before scrolling
+        setTimeout(function() {
+          // Scroll to the Lottie container using jQuery
+          $('html, body').animate({
+            scrollTop: $('#winners').offset().top
+          }, 1000); // Duration of the scroll (1 second)
+    
+          // After scrolling is done, play the animation once
+          setTimeout(function() {
+              animationFist.play(); // Play the animation
+              animationPapers.play(); // Play the animation
+          }, 1000); // Wait for scrolling to finish (1 second)
+          setTimeout(function() {
+              animationSec.play(); // Play the animation
+          }, 1500); // Wait for scrolling to finish (1 second)
+          
+        }, 200); // 2 seconds delay before scrolling
+
+
+
   $('footer').click(function () {
     location.reload(); // This will refresh the page
   });
